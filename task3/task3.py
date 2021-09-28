@@ -3,8 +3,6 @@ from requests import get
 from io import StringIO
 import numpy as np
 import matplotlib.pyplot as plt
-# from mpl_toolkits.mplot3d import Axes3D
-# from scipy.optimize._trustregion_constr.projections import projections
 
 try:
     resp = get(r"https://raw.githubusercontent.com/rvgarafutdinov/python_datascience/master/task1_output.csv")
